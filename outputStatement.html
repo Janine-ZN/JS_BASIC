@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    // 1. 页面中弹出一个提示框
+    alert("Hello JavaScript");
+
+    // 2. 在页面中，向 body 中写一个内容
+    document.write("看我出来不？？？");
+
+    // 3. 向控制台输出一个内容
+    console.log("按F12，找到console，在这里可以看到我~~~");
+
+    // 4. 在网页中弹出用户进行输入的对话框，一般用于接收用户输入的信息
+    // 这个方法返回用户输入的字符串。
+    // 语法格式：prompt(msg,defaultText) // defaultText 默认值，可以省略
+    //************** 使用prompt，输入两个数，计算出两个数的和 ****************//
+    // 4.1 提示输入内容
+    var num1 = prompt('please input a number');
+    var num2 = prompt('please input a number');
+
+    // 4.2 每次输入的值是字符串类型，需要转换为整型
+    num1 = parseInt(num1);
+    num2 = parseInt(num2);
+    // 4.3 进行两个整数的加和计算
+    var res = num1 + num2;
+    console.log("res的结果是 " + res);
+
+</script>
+</body>
+</html>

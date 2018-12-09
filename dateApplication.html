@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JS特效-简单的日历特效、Interval</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/date/dateApplication.js"></script>
+</head>
+
+<body>
+<!-- 简单的日历 -->
+<div id="box">
+	<div id="box_top">
+		<!--2018年6月25日 星期一-->
+	</div>
+	<div id="box_bottom">
+		<!--12-->
+	</div>
+</div>
+<!-- //简单的日历 -->
+
+<!-- 倒计时后显示图片 -->
+<div id="box1">
+	<div id="box1_time">5</div>
+	<img id='huge' src="imgs/huge.jpg" alt="">
+</div>
+<!-- //倒计时后显示图片 -->
+
+<div id="box2">
+	<button onclick="timeout()">按钮</button>
+	<p id="ptime"></p>
+</div>
+
+<!-- 考试时间倒计时 -->
+<div id="box3">
+	<p>距离考试时间</p>
+	<p id="box3_time"></p>
+</div>
+<!-- //考试时间倒计时 -->
+
+<!-- 时钟练习 -->
+<div id="box4">
+	<div id="hour"></div>
+	<div id="min"></div>
+	<div id="second"></div>
+</div>
+<!-- //时钟练习 -->
+
+
+</body>
+</html>
